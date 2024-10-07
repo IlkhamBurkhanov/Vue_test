@@ -2,6 +2,7 @@
 import Messages from './Messages.vue'
 import Calling from './Calling.vue'
 import InfoClients from './InfoClients.vue'
+import Tables from './Tables.vue'
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import InfoClients from './InfoClients.vue'
     <Calling />
     <Messages />
     <InfoClients />
+    <Tables />
   </div>
 </template>
 
