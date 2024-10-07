@@ -79,6 +79,7 @@
     </div>
     <div class="w-full">
       <button
+        @click="sendData"
         class="w-full text-[15px] text-[#1A99FF] font-bold py-2 px-8 border border-[#1A99FF] rounded-xl"
       >
         Загрузить больше
@@ -143,6 +144,11 @@ export default {
     }
   },
   methods: {
+    sendData() {
+      const dataToSend = 'Hello from Child!'
+      // Emit an event named 'send-data' with data
+      this.$emit('send-data', dataToSend)
+    },
     deleteUser(id) {
       this.users = this.users.filter((user) => user.id !== id)
     },
