@@ -1,12 +1,14 @@
 <script setup>
 import Messages from './Messages.vue'
 import Calling from './Calling.vue'
+import InfoClients from './InfoClients.vue'
 </script>
 
 <template>
   <div class="mx-8">
     <Calling />
     <Messages />
+    <InfoClients />
   </div>
 </template>
 
