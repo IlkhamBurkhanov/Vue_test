@@ -33,10 +33,10 @@
         <img src="../assets/Icons/Group1.svg" alt="" />
         <div>
           <h2 class="text-[#1A99FF] text-[10px]">Ожидание</h2>
-          <lebel class="flex items-center gap-0.5">
+          <div class="flex items-center gap-0.5">
             <h3 class="text-lg font-bold text-[#2F2F37]">106</h3>
             <p class="text-[#8294AF] text-[10px]">(18:08)</p>
-          </lebel>
+          </div>
         </div>
         <img src="../assets/Icons/Frame.svg" alt="" />
       </div>
